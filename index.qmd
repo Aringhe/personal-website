@@ -1,0 +1,9 @@
+---
+title: "James"
+---
+
+I'm not gay but this gives me pride.
+
+![Me](assets/puppy.avif)
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
