@@ -1,0 +1,10 @@
+/root/ros2_ws/build/my_minimal_pkg/CMakeFiles/uninstall.dir
+/root/ros2_ws/build/my_minimal_pkg/CMakeFiles/my_minimal_pkg_uninstall.dir
+/root/ros2_ws/build/my_minimal_pkg/CMakeFiles/talker.dir
+/root/ros2_ws/build/my_minimal_pkg/CMakeFiles/test.dir
+/root/ros2_ws/build/my_minimal_pkg/CMakeFiles/edit_cache.dir
+/root/ros2_ws/build/my_minimal_pkg/CMakeFiles/rebuild_cache.dir
+/root/ros2_ws/build/my_minimal_pkg/CMakeFiles/list_install_components.dir
+/root/ros2_ws/build/my_minimal_pkg/CMakeFiles/install.dir
+/root/ros2_ws/build/my_minimal_pkg/CMakeFiles/install/local.dir
+/root/ros2_ws/build/my_minimal_pkg/CMakeFiles/install/strip.dir

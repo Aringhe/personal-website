@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000722] (my_minimal_pkg) JobQueued: {'identifier': 'my_minimal_pkg', 'dependencies': OrderedDict()}
+[0.000821] (my_minimal_pkg) JobStarted: {'identifier': 'my_minimal_pkg'}
+[0.004140] (my_minimal_pkg) JobProgress: {'identifier': 'my_minimal_pkg', 'progress': 'cmake'}
+[0.005161] (my_minimal_pkg) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/my_minimal_pkg'], 'cwd': '/root/ros2_ws/build/my_minimal_pkg', 'env': OrderedDict([('HOSTNAME', '3acc2b893f19'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/root/ros2_ws/build/my_minimal_pkg'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[0.062351] (my_minimal_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.097150] (my_minimal_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.100087] (-) TimerEvent: {}
+[0.103828] (my_minimal_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.152363] (my_minimal_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.157219] (my_minimal_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.157517] (my_minimal_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.158152] (my_minimal_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.160953] (my_minimal_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.201132] (-) TimerEvent: {}
+[0.214698] (my_minimal_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.219436] (my_minimal_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.220141] (my_minimal_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.220360] (my_minimal_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.225217] (my_minimal_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.278223] (my_minimal_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.302103] (-) TimerEvent: {}
+[0.322905] (my_minimal_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.345452] (my_minimal_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.347548] (my_minimal_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.351918] (my_minimal_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.358501] (my_minimal_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.366262] (my_minimal_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.388343] (my_minimal_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.389786] (my_minimal_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.403095] (-) TimerEvent: {}
+[0.407750] (my_minimal_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.413785] (my_minimal_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.422656] (my_minimal_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.428470] (my_minimal_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.476195] (my_minimal_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.477111] (my_minimal_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.504326] (-) TimerEvent: {}
+[0.521702] (my_minimal_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.522710] (my_minimal_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.590426] (my_minimal_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.605101] (-) TimerEvent: {}
+[0.607788] (my_minimal_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.610593] (my_minimal_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[0.611132] (my_minimal_pkg) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[0.611408] (my_minimal_pkg) StderrLine: {'line': b'\n'}
+[0.611648] (my_minimal_pkg) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[0.611856] (my_minimal_pkg) StderrLine: {'line': b'    CATKIN_SYMLINK_INSTALL\n'}
+[0.612117] (my_minimal_pkg) StderrLine: {'line': b'\n'}
+[0.612290] (my_minimal_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[0.616065] (my_minimal_pkg) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/my_minimal_pkg\n'}
+[0.619704] (my_minimal_pkg) CommandEnded: {'returncode': 0}
+[0.620083] (my_minimal_pkg) JobProgress: {'identifier': 'my_minimal_pkg', 'progress': 'build'}
+[0.621086] (my_minimal_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/my_minimal_pkg', '--', '-j12', '-l12'], 'cwd': '/root/ros2_ws/build/my_minimal_pkg', 'env': OrderedDict([('HOSTNAME', '3acc2b893f19'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/root/ros2_ws/build/my_minimal_pkg'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[0.642006] (my_minimal_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o\x1b[0m\n'}
+[0.706126] (-) TimerEvent: {}
+[0.813852] (-) TimerEvent: {}
+[0.921107] (-) TimerEvent: {}
+[1.022092] (-) TimerEvent: {}
+[1.123126] (-) TimerEvent: {}
+[1.224109] (-) TimerEvent: {}
+[1.325125] (-) TimerEvent: {}
+[1.426127] (-) TimerEvent: {}
+[1.527093] (-) TimerEvent: {}
+[1.628102] (-) TimerEvent: {}
+[1.729119] (-) TimerEvent: {}
+[1.830108] (-) TimerEvent: {}
+[1.931108] (-) TimerEvent: {}
+[2.032106] (-) TimerEvent: {}
+[2.133100] (-) TimerEvent: {}
+[2.236145] (-) TimerEvent: {}
+[2.277210] (my_minimal_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[2.337144] (-) TimerEvent: {}
+[2.388411] (my_minimal_pkg) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[2.393916] (my_minimal_pkg) CommandEnded: {'returncode': 0}
+[2.395545] (my_minimal_pkg) JobProgress: {'identifier': 'my_minimal_pkg', 'progress': 'install'}
+[2.398924] (my_minimal_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/my_minimal_pkg'], 'cwd': '/root/ros2_ws/build/my_minimal_pkg', 'env': OrderedDict([('HOSTNAME', '3acc2b893f19'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/root/ros2_ws/build/my_minimal_pkg'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[2.401526] (my_minimal_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.402344] (my_minimal_pkg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_minimal_pkg/lib/my_minimal_pkg/talker\n'}
+[2.411738] (my_minimal_pkg) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/my_minimal_pkg/lib/my_minimal_pkg/talker" to ""\n'}
+[2.412606] (my_minimal_pkg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_minimal_pkg/share/ament_index/resource_index/package_run_dependencies/my_minimal_pkg\n'}
+[2.414200] (my_minimal_pkg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_minimal_pkg/share/ament_index/resource_index/parent_prefix_path/my_minimal_pkg\n'}
+[2.415484] (my_minimal_pkg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_minimal_pkg/share/my_minimal_pkg/environment/ament_prefix_path.sh\n'}
+[2.416458] (my_minimal_pkg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_minimal_pkg/share/my_minimal_pkg/environment/ament_prefix_path.dsv\n'}
+[2.417533] (my_minimal_pkg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_minimal_pkg/share/my_minimal_pkg/environment/path.sh\n'}
+[2.418327] (my_minimal_pkg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_minimal_pkg/share/my_minimal_pkg/environment/path.dsv\n'}
+[2.419418] (my_minimal_pkg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_minimal_pkg/share/my_minimal_pkg/local_setup.bash\n'}
+[2.420339] (my_minimal_pkg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_minimal_pkg/share/my_minimal_pkg/local_setup.sh\n'}
+[2.421383] (my_minimal_pkg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_minimal_pkg/share/my_minimal_pkg/local_setup.zsh\n'}
+[2.422439] (my_minimal_pkg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_minimal_pkg/share/my_minimal_pkg/local_setup.dsv\n'}
+[2.423342] (my_minimal_pkg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_minimal_pkg/share/my_minimal_pkg/package.dsv\n'}
+[2.424715] (my_minimal_pkg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_minimal_pkg/share/ament_index/resource_index/packages/my_minimal_pkg\n'}
+[2.425852] (my_minimal_pkg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_minimal_pkg/share/my_minimal_pkg/cmake/my_minimal_pkgConfig.cmake\n'}
+[2.426849] (my_minimal_pkg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_minimal_pkg/share/my_minimal_pkg/cmake/my_minimal_pkgConfig-version.cmake\n'}
+[2.427846] (my_minimal_pkg) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_minimal_pkg/share/my_minimal_pkg/package.xml\n'}
+[2.430014] (my_minimal_pkg) CommandEnded: {'returncode': 0}
+[2.438073] (-) TimerEvent: {}
+[2.445507] (my_minimal_pkg) JobEnded: {'identifier': 'my_minimal_pkg', 'rc': 0}
+[2.446365] (-) EventReactorShutdown: {}

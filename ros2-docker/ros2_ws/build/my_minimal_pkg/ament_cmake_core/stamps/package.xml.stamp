@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>my_minimal_pkg</name>
+  <version>0.0.1</version>
+  <description>Minimal ROS2 C++ talker package</description>
+
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+
+</package>
