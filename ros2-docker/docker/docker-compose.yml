@@ -1,0 +1,10 @@
+services:
+  ros2:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    platform: linux/arm64
+    volumes:
+      - ./ros2_ws:/root/ros2_ws/
+    stdin_open: true
+    tty: true
